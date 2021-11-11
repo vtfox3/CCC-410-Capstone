@@ -1,0 +1,9 @@
+vyos@vyos# show interfaces
+  ethernet eth0 {
+    address dhcp
+    hw-id 00:50:xx:xx:xx:xx
+  }
+  ethernet eth1 {
+    address dhcp --> ## REMOVE THIS w/ "del interfaces ethernet eth1 address dhcp"
+    hw-id 00:50:xx:xx:xx:xx
+  }
